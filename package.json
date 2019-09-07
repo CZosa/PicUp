@@ -1,0 +1,37 @@
+{
+  "name": "picup",
+  "version": "1.0.0",
+  "description": "* [General info](#general-info) * [Technologies](#technologies) * [Setup](#setup)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CZosa/PicUp.git"
+  },
+  "author": "Chris Zosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CZosa/PicUp/issues"
+  },
+  "homepage": "https://github.com/CZosa/PicUp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
