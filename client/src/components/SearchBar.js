@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/searchbar.css';
 
 class SearchBar extends React.Component {
   render() { 
@@ -6,8 +7,8 @@ class SearchBar extends React.Component {
       <div className="segment">
         <form className="form">
           <div className="field">
-            <label>Search for images: </label>
-            <input type="text" />
+            <label className="input_text">Search for images: </label>
+            <input className="input_area" type="text" />
           </div>
         </form>
       </div>
