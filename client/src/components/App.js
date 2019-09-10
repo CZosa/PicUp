@@ -1,9 +1,11 @@
 import React from 'react';
+import SearchBar from './SearchBar';
+import '../styles/app.css';
 
 const App = () => {
   return (
-    <div>
-      App working
+    <div className="container">
+      <SearchBar />
     </div>
   )
 };
