@@ -1,6 +1,10 @@
 .container {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.img_amount {
+  margin-top: 10px;
 }
