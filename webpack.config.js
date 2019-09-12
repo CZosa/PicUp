@@ -1,5 +1,5 @@
 module.exports = {
-  entry: __dirname + '/client/src/index.js',
+  entry: ['babel-polyfill', __dirname + '/client/src/index.js'],
   module: {
     rules: [
       {
